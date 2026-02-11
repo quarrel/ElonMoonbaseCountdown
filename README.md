@@ -2,7 +2,7 @@
 
 A static website tracking Elon Musk's pledge to build a "self-growing city on the Moon" within 10 years (Target: February 2036).
 
-## Live Demo
+## Live Site
 Currently deployed at: **[https://elonmoonbasecountdown.pages.dev/](https://elonmoonbasecountdown.pages.dev/)**
 
 ## Project Structure
