@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elon's Moonbase Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-container">
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+    </div>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>THE PLEDGE</h1>
+                <blockquote class="main-quote">
+                    "SpaceX has already shifted focus to building a <span class="highlight">self-growing city on the Moon</span>, as we can potentially achieve that in less than 10 years."
+                    <footer>&mdash; Elon Musk, February 2026</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <section class="countdown-section">
+            <h2>TIME REMAINING</h2>
+            <div id="countdown" class="countdown-timer">
+                <div class="time-unit">
+                    <span id="years">00</span>
+                    <label>YEARS</label>
+                </div>
+                <div class="time-unit">
+                    <span id="days">000</span>
+                    <label>DAYS</label>
+                </div>
+                <div class="time-unit">
+                    <span id="hours">00</span>
+                    <label>HOURS</label>
+                </div>
+                <div class="time-unit">
+                    <span id="minutes">00</span>
+                    <label>MINUTES</label>
+                </div>
+                <div class="time-unit">
+                    <span id="seconds">00</span>
+                    <label>SECONDS</label>
+                </div>
+            </div>
+            <p class="target-date">Target: February 10, 2036</p>
+        </section>
+
+        <section class="contradictions">
+            <h2>THE "WASTE OF TIME" ARCHIVE</h2>
+            <p class="subtitle">Things Elon said about the Moon before he changed his mind.</p>
+            
+            <div class="quotes-grid">
+                <div class="quote-card">
+                    <p>"No, we're going straight to Mars. The Moon is a distraction."</p>
+                    <div class="source">
+                        <span>&mdash; Elon Musk</span>
+                        <span class="date">Past Interview</span>
+                    </div>
+                </div>
+
+                <div class="quote-card">
+                    <p>"It’s actually much harder to have a self-sustaining base on the Moon than on Mars."</p>
+                    <div class="source">
+                        <span>&mdash; Elon Musk</span>
+                    </div>
+                </div>
+
+                <div class="quote-card">
+                    <p>"[The Moon program] is extremely inefficient as it is a jobs-maximizing program, not a results-maximizing program."</p>
+                    <div class="source">
+                        <span>&mdash; Elon Musk</span>
+                    </div>
+                </div>
+
+                <div class="quote-card">
+                    <p>"Mars is far better-suited ultimately to scale up to be a self-sustaining civilization."</p>
+                    <div class="source">
+                        <span>&mdash; Elon Musk</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
